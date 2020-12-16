@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	padding: 10px;
+	font-family: sans-serif;;
+	background-color: #FFFFFF; /* 5f82b1 */
+}
+
+.page_container {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.environment {
+	margin: 10px;
+	font-size: 14pt;
+	text-align: left;
+	border-radius: 15px;
+}
+
+
+.environment h3 {
+	text-align: left;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.environment_links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.page_title {
+	margin-top: 25px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.environment_title {
+	background-color: #0066eb;
+	padding: 5px;
+	font-size: 23px;
+	color: white;
+	font-weight: bold;
+}
+
+.prod_button_text {
+	font-weight: bold;
+	padding: 10px;
+	color: white;
+}
+
+.opaque_area {
+	background: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+.environment_selector_area {
+	padding: 10px;
+	margin: 25px;
+	display: flex; 
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+li {
+	margin-bottom: 5px;
+	padding-bottom: 0.3em;;
+
+}
+
+
+.lssd_logo {
+	height: 135px;
+}
+
+.info_section {
+	text-align: left;
+	overflow: hidden;
+	width: 100%;
+	font-size: 14pt;
+}
+
+.flex {	
+	display: flex; 
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid rgba(0,0,0,0.2)
+}
+
+
+@media only screen and (max-width: 800px) {
+	
+	.environment {
+		width: 100%;
+	}
+
+	.hidden_on_small_screens {
+		display: none;
+		background: magenta;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.lssd_logo {
+		width: 100px;
+		height: 110px;
+		padding: 0;
+	}
+
+	.environment_title {
+		text-align: center;
+	}
+
+	.environment {
+		width: 45%
+	}
+}
