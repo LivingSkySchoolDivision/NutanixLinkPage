@@ -9,7 +9,7 @@ pipeline {
         stage('Git clone') {
             steps {
                 git branch: 'master',
-                    url: "git@github.com:LivingSkySchoolDivision/NutanixLinkPage.git"
+                    url: "https://github.com/LivingSkySchoolDivision/NutanixLinkPage.git"
             }
         }
         stage('Docker build') {
